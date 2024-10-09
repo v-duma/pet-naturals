@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pet Naturals</title>
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <section id="first-section">
+      <div class="clouds-container">
+        <div class="first-cloud-container">
+          <picture class="first-cloud">
+            <source srcset="./images/webp/cloud.webp" type="image/webp" />
+            <source srcset="./images/png/cloud.png" type="image/png" />
+            <img src="./images/png/cloud.png" alt="Cloud" />
+          </picture>
+
+          <picture class="logo">
+            <source srcset="./images/webp/logo.webp" type="image/webp" />
+            <source srcset="./images/png/logo.png" type="image/png" />
+            <img src="./images/png/logo.png" alt="Logo" />
+          </picture>
+        </div>
+
+        <div class="second-cloud-container">
+          <div class="dropdown">
+            <button class="dropbtn">Menu &#11163;</button>
+            <div class="dropdown-content">
+              <a href="#order-block">ORDER</a>
+              <a href="#second-section">ABOUT</a>
+              <a href="#third-section">RESULTS</a>
+            </div>
+          </div>
+          <ul class="navigation-list">
+            <li><a href="#order-block">ORDER</a></li>
+            <li><a href="#second-section">ABOUT</a></li>
+            <li><a href="#third-section">RESULTS</a></li>
+          </ul>
+          <picture class="second-cloud">
+            <source srcset="./images/webp/cloud.webp" type="image/webp" />
+            <source srcset="./images/png/cloud.png" type="image/png" />
+            <img src="./images/png/cloud.png" alt="Cloud" />
+          </picture>
+        </div>
+      </div>
+      <h1 class="main-heading">Pet Naturals of Vermont, Calming, For Cats</h1>
+
+      <div class="main-content-container">
+        <div class="product-benefits-with-heading">
+          <h2>
+            Your cat deserves the best pet supplement the world has to offer.
+            That's what's in the package.
+          </h2>
+          <div class="product-benefits-container">
+            <ul class="product-benefits-list">
+              <li>
+                <img
+                  src="./images/icons/cat-footprints-black.svg"
+                  alt="Icon Description"
+                  width="24"
+                  height="24"
+                />
+
+                <p>Features a patented calming blend</p>
+              </li>
+
+              <li>
+                <img
+                  src="./images/icons/cat-footprints-black.svg"
+                  alt="Icon Description"
+                  width="24"
+                  height="24"
+                />
+
+                <p>Doesn’t contain herbal ingredients</p>
+              </li>
+
+              <li>
+                <img
+                  src="./images/icons/cat-footprints-black.svg"
+                  alt="Icon Description"
+                  width="24"
+                  height="24"
+                />
+
+                <p>Helps manage everyday stress</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="img-and-order">
+          <div class="calming-img-block">
+            <picture class="calming-img">
+              <source
+                srcset="./images/webp/calming-img.webp"
+                type="image/webp"
+              />
+              <source srcset="./images/png/calming-img.png" type="image/png" />
+              <img src="./images/png/calming-img.png" alt="Calming" />
+            </picture>
+          </div>
+
+          <div id="order-block" class="order-block">
+            <picture class="blue-figure">
+              <source
+                srcset="./images/webp/blue-figure.webp"
+                type="image/webp"
+              />
+              <source srcset="./images/png/blue-figure.png" type="image/png" />
+              <img src="./images/png/blue-figure.png" />
+            </picture>
+            <div class="text-content">
+              <h4>TIME LEFT</h4>
+              <h3 id="timer">2:00:00</h3>
+              <div class="price-block">
+                <h3>120uah</h3>
+                <h3>60uah</h3>
+              </div>
+            </div>
+            <form>
+              <div class="input-wrapper">
+                <img
+                  src="./images/icons/cat-footprints-gray.svg"
+                  alt="Icon"
+                  class="input-icon"
+                />
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="Name"
+                  required
+                />
+              </div>
+
+              <div class="input-wrapper">
+                <img
+                  src="./images/icons/cat-footprints-gray.svg"
+                  alt="Icon"
+                  class="input-icon"
+                />
+                <input
+                  type="tel"
+                  id="phone"
+                  name="phone"
+                  pattern="^\+38\(0[0-9]{2}\)[0-9]{3}-[0-9]{2}-[0-9]{2}$"
+                  placeholder="+38(0__)___-__-__"
+                  required
+                />
+              </div>
+
+              <button type="submit" class="order-btn">ORDER</button>
+            </form>
+
+            <p id="date" class="order-date-p">Order date: 17.11.2021</p>
+            <img src="./images/icons/line.svg" alt="Line" class="line" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="second-section">
+      <h1><span class="gradient-text">From the manufacturer</span></h1>
+      <div class="cards-container">
+        <div class="card">
+          <picture class="card-img">
+            <source srcset="./images/webp/cat.webp" type="image/webp" />
+            <source srcset="./images/png/cat.png" type="image/png" />
+            <img src="./images/png/cat.png" alt="Cat" />
+          </picture>
+          <div class="card-text-container">
+            <h5>Keep Calm and Carry On</h5>
+            <p>
+              Are you searching for a better way to ease your pet’s separation
+              anxiety or stress? Calming chews help relieve pet stress without
+              corn, wheat or artificial ingredients.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <picture class="card-img">
+            <source srcset="./images/webp/lotus.webp" type="image/webp" />
+            <source srcset="./images/png/lotus.png" type="image/png" />
+            <img src="./images/png/lotus.png" alt="Lotus" />
+          </picture>
+          <div class="card-text-container">
+            <h5>Peace of Mind</h5>
+            <p>
+              Pet Naturals of Vermont’s research-backed formula makes it safe to
+              double or triple the amount in times of added stress.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <picture class="card-img">
+            <source srcset="./images/webp/fish.webp" type="image/webp" />
+            <source srcset="./images/png/fish.png" type="image/png" />
+            <img src="./images/png/fish.png" alt="Cat" />
+          </picture>
+          <div class="card-text-container">
+            <h5>More than a Tasty Treat</h5>
+            <p>
+              Don’t let its satisfying chicken liver flavor fool you.
+              Technically, Calming isn’t a treat but it sure tastes like one.
+              Reward your best buddy with a Calming chew.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="third-section">
+      <h1>Best Uses for Calming Chews</h1>
+      <div class="third-section-content">
+        <div>
+          <img
+            src="./images/icons/rectangle.svg"
+            alt="Rectangle"
+            class="rectangle"
+          />
+          <div class="third-section-text">
+            <p>
+              Car rides. Vet visits. Thunderstorms. Boarding. Parties. These are
+              just a handful of times when Calming chews may come in handy. Does
+              your dog hate to be left home alone? Does your cat love hiding
+              under the bed? Serve up a Calming chew to help soothe your furry
+              pal’s anxiety and make your life easier, too!
+            </p>
+            <p>For Best Results:</p>
+
+            <p>
+              We recommend administering Calming chews 30 minutes prior to a
+              stressful event. The 30-minute activation period gives you a
+              chance to increase dosage if you’re not seeing expected results.
+              Calming is safe for unique stress inducing events and for
+              long-term use to help manage everyday stress.
+            </p>
+          </div>
+        </div>
+        <picture class="third-section-img">
+          <source
+            srcset="./images/webp/third-section-img.webp"
+            type="image/webp"
+          />
+          <source
+            srcset="./images/png/third-section-img.png"
+            type="image/png"
+          />
+          <img src="./images/png/third-section-img.png" alt="Cat" />
+        </picture>
+      </div>
+      <picture class="grass">
+        <source srcset="./images/webp/grass.webp" type="image/webp" />
+        <source srcset="./images/png/grass.png" type="image/png" />
+        <img src="./images/png/grass.png" alt="Grass" />
+      </picture>
+    </section>
+
+    <script src="https://unpkg.com/imask"></script>
+    <script src="./js/timer.js" defer></script>
+    <script src="./js/phone.js" defer></script>
+    <script src="./js/date.js" defer></script>
+  </body>
+</html>
